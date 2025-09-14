@@ -112,7 +112,7 @@ View attendance summary table
 Toggle Dark Mode 🌙
 
 📸 Screenshots
-👉 (Add your screenshots here once running locally)
+<img width="1223" height="559" alt="Image" src="https://github.com/user-attachments/assets/fea5ca10-a557-4e22-bacd-c51288251aee" />
 
 Home Page (Light Mode)
 
@@ -131,3 +131,4 @@ LinkedIn: akriti sharma
 1. Save this file as `README.md` in your project root.  
 2. Push your project to GitHub.  
 3. Export your API collection from Postman → Share Link → Replace in `README.md`.  
+
