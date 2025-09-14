@@ -1,0 +1,149 @@
+/* 🌟 Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f9f9f9, #e9ecef);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+/* 🌙 Dark Mode Styles */
+body.dark-mode {
+  background: linear-gradient(135deg, #1e1e2f, #2c2c3e);
+  color: #f1f1f1;
+}
+
+body.dark-mode .container {
+  background: #2b2b3c;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+}
+
+body.dark-mode h2 {
+  color: #f8f9fa;
+}
+
+body.dark-mode .card {
+  background: #34344a;
+  color: #eaeaea;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.7);
+}
+
+body.dark-mode .table {
+  background: #3a3a50;
+  color: #eaeaea;
+}
+
+body.dark-mode .table thead {
+  background: #111;
+  color: #f1f1f1;
+}
+
+body.dark-mode .list-group-item {
+  background: #3c3c50;
+  color: #eaeaea;
+}
+
+body.dark-mode .btn {
+  border-color: #ddd;
+  color: #ddd;
+}
+
+body.dark-mode .btn:hover {
+  background: #555;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Heading */
+h2 {
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+/* Buttons */
+button, .btn {
+  border-radius: 8px !important;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover, .btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Student List */
+#studentList li {
+  transition: background 0.2s, transform 0.2s;
+}
+
+#studentList li:hover {
+  background: #f1f9ff;
+  transform: scale(1.02);
+}
+
+/* Attendance Summary Table */
+.table {
+  margin-top: 10px;
+}
+
+.table thead {
+  background: #212529;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.table tbody tr {
+  transition: background 0.2s, transform 0.2s;
+}
+
+.table tbody tr:hover {
+  background: #f8f9fa;
+  transform: scale(1.01);
+}
+
+/* Attendance Badges */
+.badge {
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+/* Custom Colors */
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Smooth Fade Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
