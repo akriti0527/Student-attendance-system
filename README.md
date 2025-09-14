@@ -49,7 +49,7 @@ Copy code
 
 ---
 📸 Screenshots
-<img width="1223" height="559" alt="Image" src="https://github.com/user-attachments/assets/fea5ca10-a557-4e22-bacd-c51288251aee" />
+![Image](https://github.com/user-attachments/assets/791b2c7f-a687-47d8-bea3-ddaac691325b)
 ## ⚡ Setup Instructions
 
 ### 1️⃣ Clone the Repository
@@ -128,5 +128,6 @@ LinkedIn: akriti sharma
 1. Save this file as `README.md` in your project root.  
 2. Push your project to GitHub.  
 3. Export your API collection from Postman → Share Link → Replace in `README.md`.  
+
 
 
